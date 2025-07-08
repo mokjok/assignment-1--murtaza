@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(145deg, #e1f0ff, #f7faff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.fuel-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #004d66;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.fuel-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fuel-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.fuel-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.fuel-form input:focus {
+  border-color: #007788;
+  box-shadow: 0 0 4px rgba(0, 119, 136, 0.2);
+}
+
+#calculate-btn {
+  padding: 12px;
+  background-color: #007788;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#calculate-btn:hover {
+  background-color: #005a66;
+}
+
+.result-box {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #004d66;
+}

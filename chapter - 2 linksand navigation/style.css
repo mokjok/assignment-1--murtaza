@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0d0d0d;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+
+.site-banner {
+  background-color: #1a1a1a;
+  padding: 60px 20px;
+  text-align: center;
+  color: #f2f2f2;
+  background-image: url('https://images.unsplash.com/photo-1589233417019-8ae3b6dd8f85?fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.site-banner h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.slogan {
+  font-style: italic;
+  color: #ccc;
+}
+
+
+.main-nav {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 0;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #e5c100;
+}
+
+.main-nav a {
+  color: #e5c100;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 14px;
+  transition: 0.3s;
+}
+
+.main-nav a:hover {
+  background-color: #e5c100;
+  color: #000;
+  border-radius: 4px;
+}
+
+.btn-watch {
+  background-color: #e5c100;
+  color: #000 !important;
+  border-radius: 4px;
+}
+
+
+.content {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section-block {
+  margin-bottom: 40px;
+}
+
+.section-block h2 {
+  color: #e5c100;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+}
+
+.section-block p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.alt-bg {
+  background-color: #191919;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+
+.char-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.char-list li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.char-list span {
+  color: #e5c100;
+  font-weight: bold;
+}
+
+
+blockquote {
+  font-style: italic;
+  color: #bbb;
+  border-left: 4px solid #e5c100;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+
+.footer-bar {
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  border-top: 2px solid #e5c100;
+}
